@@ -28,10 +28,7 @@ const routes: Routes = [
     path:"administracion",
     loadChildren: () => import("./modulos/administracion/administracion.module").then(x=> x.AdministracionModule)
   },
-  {
-    path:"mascota",
-    loadChildren: () => import("./modulos/mascotas/mascotas.module").then(x=> x.MascotasModule)
-  },
+  
 {
 
 path:"servicios",component: ServiciosComponent
